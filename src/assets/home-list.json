@@ -1,0 +1,88 @@
+{
+	"housesList": [
+		{
+			"name": "House 1",
+			"id": "1",
+			"price": 299.999,
+			"address": {
+				"state": "CA",
+				"sity": "San Francisco",
+				"street": "Judas",
+				"houseNumber": "41"
+			},
+			"img": "https://media.istockphoto.com/photos/american-craftsman-house-picture-id178559422?k=6&m=178559422&s=612x612&w=0&h=ogaH3FfODfPnKsINyac03L4QDvSlQTOOxL1m3891GQU="
+		},
+		{
+			"name": "House 2",
+			"id": "2",
+			"price": 450.999,
+			"address": {
+				"state": "CA",
+				"sity": "San Francisco",
+				"street": "Judas",
+				"houseNumber": "42"
+			},
+			"img": "https://media.istockphoto.com/photos/typical-wooden-small-farm-house-in-victorian-style-in-williamstown-picture-id879361282?k=6&m=879361282&s=612x612&w=0&h=XfbrFKnl5u8qSq0L8OUW7YDJHk14r-kJ8Xny6cjiLnc="
+		},
+		{
+			"name": "House 3",
+			"id": "3",
+			"price": 312.999,
+			"address": {
+				"state": "CA",
+				"sity": "San Francisco",
+				"street": "Judas",
+				"houseNumber": "43"
+			},
+			"img": "https://www.thehousedesigners.com/images/plans/BFD/renderings/1625%20front%20elevation%20color%20art.jpg"
+		},
+		{
+			"name": "House 4",
+			"id": "4",
+			"price": 312.999,
+			"address": {
+				"state": "CA",
+				"sity": "San Francisco",
+				"street": "Judas",
+				"houseNumber": "43"
+			},
+			"img": "https://i.ytimg.com/vi/k8RoG5w2-ro/hqdefault.jpg"
+		},
+		{
+			"name": "House 5",
+			"id": "5",
+			"price": 312.999,
+			"address": {
+				"state": "CA",
+				"sity": "San Francisco",
+				"street": "Judas",
+				"houseNumber": "43"
+			},
+			"img": "https://media.istockphoto.com/photos/american-craftsman-house-picture-id178559422?k=6&m=178559422&s=612x612&w=0&h=ogaH3FfODfPnKsINyac03L4QDvSlQTOOxL1m3891GQU="
+		},
+		{
+			"name": "House 6",
+			"id": "6",
+			"price": 312.999,
+			"address": {
+				"state": "CA",
+				"sity": "San Francisco",
+				"street": "Judas",
+				"houseNumber": "43"
+			},
+			"img": "https://media.istockphoto.com/photos/typical-wooden-small-farm-house-in-victorian-style-in-williamstown-picture-id879361282?k=6&m=879361282&s=612x612&w=0&h=XfbrFKnl5u8qSq0L8OUW7YDJHk14r-kJ8Xny6cjiLnc="
+		},
+		{
+			"name": "House 7",
+			"id": "7",
+			"price": 312.999,
+			"address": {
+				"state": "CA",
+				"sity": "San Francisco",
+				"street": "Judas",
+				"houseNumber": "43"
+			},
+			"img": "https://media.istockphoto.com/photos/typical-wooden-small-farm-house-in-victorian-style-in-williamstown-picture-id879361282?k=6&m=879361282&s=612x612&w=0&h=XfbrFKnl5u8qSq0L8OUW7YDJHk14r-kJ8Xny6cjiLnc="
+		}
+	]
+}

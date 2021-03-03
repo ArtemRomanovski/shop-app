@@ -1,0 +1,23 @@
+.header-box {
+	background: rgb(221, 221, 221);
+
+	display: flex;
+	justify-content: space-between;
+	flex-flow: wrap ;
+	text-align: center;
+	padding: 1rem 1.2rem;
+	
+
+	a{
+		margin: 0px 15px 0 0;
+		padding: .1rem .25rem;
+		border: 1px solid black;
+		border-radius: 3px;
+		background: rgb(238, 232, 232);
+	}
+
+	.rout-active{
+		background-color: white;
+	}
+
+}

@@ -1,0 +1,15 @@
+<li class="card_box" *ngFor="let house of houses">
+	<div class="card_box__info_card">
+		<div class="info_card__box_img">
+			<img style="width: 100px;" src="{{ house?.img }}" />
+			<button routerLink="app-house-card-info/{{house.id}}">More Info</button>
+		</div>
+		<div>
+			<p>{{house?.name}}</p>
+			<p>Price: {{house?.price}} $</p>
+			<p>Adress: {{house?.address.houseNumber}} {{house?.address.street}} str.,</p>
+			<p>{{house?.address.sity}}, {{house?.address.state}}</p>
+		</div>
+	</div>
+</li>
+

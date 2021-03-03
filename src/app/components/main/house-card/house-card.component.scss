@@ -1,0 +1,44 @@
+
+.card_box {
+	display: inline-block;
+	width: 310px;
+
+	margin: .5rem;
+
+	border: 1px solid rgb(202, 202, 202);
+
+	.card_box__info_card{
+		width: 300px;
+		display: flex;
+	
+		div {
+
+			width: 120px;
+			margin: .5rem;
+
+				img {
+
+					width: 100px;
+					margin: .5rem;
+		
+				}
+	
+				button {
+					width: 100px;
+					margin-top: 1rem;
+					margin-left: .5rem;
+			
+				}
+
+
+			
+		}
+	}
+
+}
+
+
+// .info_card__box_img{
+// 	display: flex;
+// 	// flex-flow: row column;
+// }

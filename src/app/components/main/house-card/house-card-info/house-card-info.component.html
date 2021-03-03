@@ -1,0 +1,22 @@
+<p>house-card-info works!</p>
+<ul class="card_info_box" *ngFor="let house of houses">
+	<li>
+		<img style="width: 100px;" src="{{ house?.img }}" />
+	</li>
+	<li>
+		Name: {{house?.name}}
+	</li>
+	<li>
+		Price: {{house?.price}} $
+	</li>
+	<li>
+		House Id: {{house?.id}}
+	</li>
+	<li>
+		Adress: {{house?.address.houseNumber}} {{house?.address.street}} str.,
+	</li>
+
+
+	<!-- <p>Adress: {{house?.address.houseNumber}} {{house?.address.street}} str.,</p>
+	<p>{{house?.address.sity}}, {{house?.address.state}}</p> -->
+</ul>

@@ -1,0 +1,7 @@
+<li class="card_box" *ngFor="let user of users">
+	<p>Id: {{user?.id}}</p>
+	<div>
+		<p>{{user?.name}}, {{user?.age}}</p>
+	</div>
+	<button (click)="removeUser(user.name)">Delete</button>
+</li>
