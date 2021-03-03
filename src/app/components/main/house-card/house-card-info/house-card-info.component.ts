@@ -64,7 +64,7 @@ export class HouseCardInfoComponent implements OnInit {
 
 		this._vendorService.getVendors(id).subscribe(data => this.vendors = data)
 
-		;
+			;
 	}
 
 	randomIntenger(min, max) {

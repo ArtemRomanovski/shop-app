@@ -15,7 +15,7 @@ export class HouseCardComponent implements OnInit {
 
 	constructor(
 		private _httpService: HttpService
-		) { }
+	) { }
 
 	ngOnInit(): void {
 
