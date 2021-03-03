@@ -1,14 +1,9 @@
 import { Injectable } from '@angular/core';
 import { HttpClient } from '@angular/common/http'
 import { Card } from '../../models/card';
+import { Vendor } from '../../models/vendors';
 import { Observable, of } from 'rxjs';
 import { map } from 'rxjs/operators';
-
-// const httpOptions = {
-// 	headers: new HttpHeaders({
-// 		"Content-Type": "application/json"
-// 	})
-// }
 
 
 @Injectable({
@@ -31,25 +26,6 @@ export class HttpService {
 	}
 
 
-
-	// getInfo(id: number): Observable<Card[]> {
-
-	// 	return this._http.get('assets/home-list.json').pipe(map(data => {
-	// 		let housesList = data["housesList"];
-	// 		return housesList.map(function (house: any) {
-	// 			return {
-	// 				name: house.name, id: house.id, price: house.price, address: {
-	// 					state: house.state,
-	// 					sity: house.sity,
-	// 					street: house.street,
-	// 					houseNumber: house.houseNumber
-	// 				}, img: house.img
-	// 			}
-	// 		})
-	// 	}))
-
-	// }
-
 	getInfo(id: number): Observable<Card[]> {
 
 		return this._http.get('assets/home-list.json').pipe(map(data => {
@@ -62,7 +38,6 @@ export class HttpService {
 
 				if (idItem == id) {
 					obj.push(Object.assign({}, housesList[i]));
-					console.log(obj);
 				}
 			}
 			return obj.map(function (house: any) {
@@ -71,16 +46,29 @@ export class HttpService {
 					id: house.id,
 					price: house.price,
 					address: {
-						state: house.state,
-						sity: house.sity,
-						street: house.street,
-						houseNumber: house.houseNumber
+						state: house.address.state,
+						sity: house.address.sity,
+						street: house.address.street,
+						suite: house.address.suite
 					},
 					img: house.img
 				}
 			})
 		}))
 	}
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 }
 

@@ -1,22 +1,41 @@
-<p>house-card-info works!</p>
-<ul class="card_info_box" *ngFor="let house of houses">
-	<li>
-		<img style="width: 100px;" src="{{ house?.img }}" />
-	</li>
-	<li>
-		Name: {{house?.name}}
-	</li>
-	<li>
-		Price: {{house?.price}} $
-	</li>
-	<li>
-		House Id: {{house?.id}}
-	</li>
-	<li>
-		Adress: {{house?.address.houseNumber}} {{house?.address.street}} str.,
-	</li>
+<ul *ngFor="let house of houses">
+	<div class="house_info">
+		<div class="house_info__img_box">
+			<li>
+				<img style="width: 100%;" src="{{ house?.img }}" />
+			</li>
+		</div>
 
+		<div class="house_info__info_box">
+			<li>
+				Name: {{house?.name}}
+			</li>
+			<li>
+				Price: {{house?.price}} $
+			</li>
+			<li>
+				<p>Adress:</p>
+				City: {{house?.address.sity}}
+			</li>
+			<li>
+				Street: {{house?.address.street}} str.
+			</li>
+			<li>
+				Suite: #{{house?.address.suite}}
+			</li>
+		</div>
 
-	<!-- <p>Adress: {{house?.address.houseNumber}} {{house?.address.street}} str.,</p>
-	<p>{{house?.address.sity}}, {{house?.address.state}}</p> -->
+		<div class="house_info__vendor_box">
+			<ul *ngFor="let vendor of vendors">
+				<p>Vendor:</p>
+				<li>{{vendor?.name}}</li>
+			<br>
+				<p>Contacts:</p>
+				<li>Email:  {{vendor?.email}}</li>
+				<li>Phone:  {{vendor?.phone}}</li>
+			</ul>			
+		</div>
+	</div>
 </ul>
+
+

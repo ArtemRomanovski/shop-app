@@ -1,14 +1,14 @@
 
 .card_box {
 	display: inline-block;
-	width: 310px;
+	width: 306px;
+	height: 140px;
 
 	margin: .5rem;
 
 	border: 1px solid rgb(202, 202, 202);
 
 	.card_box__info_card{
-		width: 300px;
 		display: flex;
 	
 		div {
@@ -25,7 +25,7 @@
 	
 				button {
 					width: 100px;
-					margin-top: 1rem;
+					margin-bottom: 10px;
 					margin-left: .5rem;
 			
 				}

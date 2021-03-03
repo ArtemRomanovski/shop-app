@@ -9,7 +9,29 @@ export class Card {
 		state: string;
 		sity: string;
 		street: string;
-		houseNumber: string;
+		suite: string;
 	};
 	img: string;
 }
+
+// export interface Card {
+
+// 	housesList: HousesList[];
+// }
+// export interface HousesList {
+// 	name: string;
+// 	id: string;
+// 	price: number;
+// 	address: Address;
+// 	img: string;
+// }
+
+// export interface Address {
+// 	state: string;
+// 	sity: string;
+// 	street: string;
+// 	houseNumber: string;
+// }
+
+
+

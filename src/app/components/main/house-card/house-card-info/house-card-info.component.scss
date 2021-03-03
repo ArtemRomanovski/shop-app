@@ -1,6 +1,35 @@
-.card_info_box {
-	
+
+
+.house_info {	
 	margin: .5rem;
 
-	border: 1px solid rgb(202, 202, 202);
+	.house_info__img_box{ 
+
+		margin: .5rem;
+
+
+		border: 1px solid rgb(202, 202, 202);
+	
+	}
+
+
+	.house_info__info_box {
+
+		margin: .5rem;
+		padding: 1rem;
+
+		border: 1px solid rgb(202, 202, 202);
+
+	}
+
+
+	.house_info__vendor_box {
+
+		margin: .5rem;
+		padding: 1rem;
+
+		border: 1px solid rgb(202, 202, 202);
+	
+	}
+
 }
